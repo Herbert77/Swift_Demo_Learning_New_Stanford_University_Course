@@ -12,6 +12,7 @@
 		191A4C2E1FB14541002F8732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191A4C2C1FB14541002F8732 /* Main.storyboard */; };
 		191A4C301FB14541002F8732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191A4C2F1FB14541002F8732 /* Assets.xcassets */; };
 		191A4C331FB14541002F8732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191A4C311FB14541002F8732 /* LaunchScreen.storyboard */; };
+		191A4C3B1FB18FEA002F8732 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A4C3A1FB18FEA002F8732 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		191A4C2F1FB14541002F8732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191A4C321FB14541002F8732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		191A4C341FB14541002F8732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191A4C3A1FB18FEA002F8732 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				191A4C281FB14541002F8732 /* AppDelegate.swift */,
 				191A4C2A1FB14541002F8732 /* ViewController.swift */,
 				191A4C2C1FB14541002F8732 /* Main.storyboard */,
+				191A4C3A1FB18FEA002F8732 /* CalculatorBrain.swift */,
 				191A4C2F1FB14541002F8732 /* Assets.xcassets */,
 				191A4C311FB14541002F8732 /* LaunchScreen.storyboard */,
 				191A4C341FB14541002F8732 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191A4C3B1FB18FEA002F8732 /* CalculatorBrain.swift in Sources */,
 				191A4C2B1FB14541002F8732 /* ViewController.swift in Sources */,
 				191A4C291FB14541002F8732 /* AppDelegate.swift in Sources */,
 			);
