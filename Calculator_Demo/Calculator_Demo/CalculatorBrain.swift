@@ -23,6 +23,7 @@ struct CalculatorBrain {
         case unaryOperation((Double) -> Double)
         case binaryOperation((Double, Double) -> Double)
         case equals
+        case point
     }
     
     private var operations: Dictionary<String,Operation> = [
@@ -35,7 +36,8 @@ struct CalculatorBrain {
         "÷" : Operation.binaryOperation({$0 / $1}),
         "+" : Operation.binaryOperation({$0 + $1}),
         "−" : Operation.binaryOperation({$0 - $1}),
-        "=" : Operation.equals
+        "=" : Operation.equals,
+        "." : Operation.point
     ]
     
     mutating func performOperation(_ symbol: String) {
@@ -57,6 +59,10 @@ struct CalculatorBrain {
                 }
             case .equals:
                 performPendingBinaryOperation()
+                
+            case .point:
+                break
+                
             }
         }
     }
